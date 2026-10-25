@@ -24,6 +24,6 @@ The local development directory contains Chinese administrative boundary and oth
 
 ## Synthetic examples and aggregate audit results
 
-The minimal example explicitly uses invented values. Controlled-test arrays are synthetic, not field observations. Aggregate audit counts, numerical error summaries and timing measurements document software behavior and are separated from original environmental values. The final release must state their approved license and attribution alongside the confirmed software license.
+The minimal example explicitly uses invented values. Controlled-test arrays are synthetic, not field observations. Aggregate audit counts, numerical error summaries and timing measurements document software behavior and are separated from original environmental values. MIT covers the original software and its accompanying original documentation and demonstration scaffolding; it does not relicense any third-party source data or authorize restricted derivative-data reuse.
 
 Conditions were checked on 2026-10-25. Recheck provider conditions when acquiring or reusing data. For uncertain permissions, obtain authorization rather than infer it from public download access.

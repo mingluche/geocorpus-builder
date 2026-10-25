@@ -11,13 +11,13 @@
   },
   {
     "path": "CHANGELOG.md",
-    "bytes": 770,
-    "sha256": "385ee8649897b801bbd4e1959c00abe0f041511922825be166aa572c2eb9ce69"
+    "bytes": 824,
+    "sha256": "a40ff206da6cd1b6f623d53a5f3e4ef9dd6a0f145d2f833617cedb057624cfe0"
   },
   {
     "path": "CITATION.cff",
-    "bytes": 783,
-    "sha256": "339027b710c1185f87ebc277372e80f3b24f72c602f26986b260a699dd9429c9"
+    "bytes": 936,
+    "sha256": "e4a85a48c015b3bf7928854576d50896f370a45e2b709f924d8f3cbb00fbdf82"
   },
   {
     "path": "CONTRIBUTING.md",
@@ -26,8 +26,8 @@
   },
   {
     "path": "DATA_LICENSES.md",
-    "bytes": 2592,
-    "sha256": "d3f2d7885ee3ca03a5c16c1b7d18da951ae04984934c5bfd648c6ff8c292a842"
+    "bytes": 2687,
+    "sha256": "9b6d36788c61215a3407c4b0ae06fa3eea0b0f05581c7ba66f9002f459753876"
   },
   {
     "path": "examples/minimal_quantitative_corpus.py",
@@ -110,14 +110,19 @@
     "sha256": "82dae80451d409ed2e34ff338c7cb1b080dba93b726a6b57aef6bcc4ba4cb606"
   },
   {
+    "path": "geocorpus-builder/LICENSE",
+    "bytes": 1084,
+    "sha256": "07c092a316d913905ae92e7a3aaf8ed6c91e03ddd9107dd4708e60637e1ead14"
+  },
+  {
     "path": "geocorpus-builder/MANIFEST.in",
     "bytes": 154,
     "sha256": "0ce4a016e5eb3a64df1b13559345ec3c5e1ea35b6a56d42d0e1bdc690b2469ba"
   },
   {
     "path": "geocorpus-builder/pyproject.toml",
-    "bytes": 867,
-    "sha256": "44f407cdb6d8eca12d7c7dd69ecfc1658af63a6283d000913ea74b61bd03cb08"
+    "bytes": 1035,
+    "sha256": "7cbb4f3009624d8b3038872c5f2cefa595e33a8a85ac9264f4fc72dfc83b96bc"
   },
   {
     "path": "geocorpus-builder/README.md",
@@ -435,9 +440,14 @@
     "sha256": "921288093a7dac86dce9dd90266dad91df54bee3a27ef3fb5a0744a8d26f8a4b"
   },
   {
+    "path": "LICENSE",
+    "bytes": 1084,
+    "sha256": "07c092a316d913905ae92e7a3aaf8ed6c91e03ddd9107dd4708e60637e1ead14"
+  },
+  {
     "path": "README.md",
-    "bytes": 5720,
-    "sha256": "7aa3c93fd28772de8f6394fab6070a50e63bcc17bc2fd5ca0a3b3321068608bc"
+    "bytes": 5897,
+    "sha256": "df38d1a828afb42da5c655bcab8a7b7aefd778123fa991ed4be0f511dd021319"
   },
   {
     "path": "reproducibility/archival_figure_sources/4.2_数值一致性与输出质量_20261024/make_figure.py",
@@ -472,7 +482,7 @@
   {
     "path": "reproducibility/candidate_source_comparison.json",
     "bytes": 16471,
-    "sha256": "c271711972abcea82565885eaf23043d53a4db1ef0c5993d2c97642047fbf623"
+    "sha256": "1c57f03d378f96b5b545bf1ed758f8a4379f68b26567d7c708e340f70bac9b20"
   },
   {
     "path": "reproducibility/controlled_six_stats_recheck.csv",

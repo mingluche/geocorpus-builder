@@ -352,7 +352,7 @@
   {
     "path": "pyproject.toml",
     "historical_sha256": "9a2a82509a1008ed0db8b52c8143d932f3a9ead6d22e93d985d3356241c225a8",
-    "candidate_sha256": "44f407cdb6d8eca12d7c7dd69ecfc1658af63a6283d000913ea74b61bd03cb08",
+    "candidate_sha256": "7cbb4f3009624d8b3038872c5f2cefa595e33a8a85ac9264f4fc72dfc83b96bc",
     "identical": false,
     "category": "packaging metadata"
   }

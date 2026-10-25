@@ -2,11 +2,11 @@
 
 GeoCorpus Builder converts geographic attributes and zonal statistics into quantitative text records linked to evidence records. It provides a reusable preparation workflow for environmental language-model corpora. Text generation uses deterministic rules and templates; it does not require an LLM API.
 
-## Publication candidate
+## Publication release
 
 This repository candidate accompanies the manuscript **GeoCorpus Builder: Software for constructing environmental quantitative text corpora for language-model training**. The implementation is version 0.1.0. The 50 Python source files match the archived implementation evaluated in October 2026. Packaging documentation and the Python installation declaration are prepared separately from the historical evaluation.
 
-This local candidate is not yet an archived public release. The copyright holder, software license and archive DOI must be confirmed before publication. Do not interpret the absence of raw datasets as permission to redistribute them.
+The original software is released under the MIT license. Versioned source and a wheel are provided through the GitHub release; a separate permanent archive DOI has not yet been assigned. Do not interpret the software license or public download access as permission to redistribute third-party geodata.
 
 ## Installation
 
@@ -58,6 +58,8 @@ reproducibility/           Source fingerprints, supplementary tables and figures
 The historical evaluation emitted 19,000 basic and 7,086 derived records across eight projects, including duplicate facts across input formats and records with known quality defects. Of 432 controlled statistic comparisons, 359 passed the paper's criterion. These are retained historical findings, not results of an undisclosed new experiment. The publication preparation step only reaggregates the stored audit records and performs separately identified smoke tests.
 
 ## Data and license boundaries
+
+Original software and documentation are distributed under [MIT](LICENSE). Dataset conditions remain separate.
 
 Read [DATA_LICENSES.md](DATA_LICENSES.md) before acquiring or sharing data. WorldClim rasters, real-data statistical tables and full real-data corpora are not included. The download scripts and source manifest allow readers to obtain permitted inputs from their providers. The legacy Chinese administrative boundary files are also excluded pending redistribution clearance. A software license cannot override third-party data restrictions.
 

@@ -3,6 +3,9 @@ message: "Please cite the versioned software archive when it becomes available; 
 type: software
 title: "GeoCorpus Builder"
 version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/mingluche/geocorpus-builder"
+url: "https://github.com/mingluche/geocorpus-builder/releases/tag/v0.1.0"
 abstract: "A workflow for constructing environmental quantitative text with linked evidence from geographic attributes and spatial statistics."
 authors:
   - family-names: Che

@@ -6,4 +6,4 @@
 - Add an English README, source fingerprints, synthetic example, two smoke tests, data-condition notes and machine-readable supplementary evidence.
 - Reaggregate stored results and regenerate the workflow and controlled-statistics figures with reproducible code.
 - Do not claim to have fixed the original unit, empty-zone or derived-evidence defects.
-- No public release or permanent archive DOI has yet been established.
+- Publish the original software under MIT with a versioned GitHub release; a separate permanent archive DOI remains pending.
