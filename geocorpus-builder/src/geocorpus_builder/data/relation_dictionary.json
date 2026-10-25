@@ -1,0 +1,61 @@
+{
+  "version": "0.1.0",
+  "relations": [
+    {
+      "relation_id": "REL_OBJECT_GRID_OVERLAP",
+      "zh": "对象—网格重叠",
+      "en": "object-grid overlap",
+      "description": "记录地理对象与固定网格之间的面积重叠关系。",
+      "required_fields": [
+        "object_id",
+        "grid_id",
+        "overlap_area_m2",
+        "area_fraction",
+        "weight"
+      ],
+      "typical_use": "zonal statistics, raster aggregation, object-grid data fusion"
+    },
+    {
+      "relation_id": "REL_OBJECT_REGION_CONTAINMENT",
+      "zh": "对象—区域归属",
+      "en": "object-region containment",
+      "description": "记录地理对象属于哪个行政区、气候区、流域或研究分区。",
+      "required_fields": [
+        "object_id",
+        "region_id",
+        "region_type",
+        "weight"
+      ],
+      "typical_use": "regional summary and stratified analysis"
+    },
+    {
+      "relation_id": "REL_NEIGHBOR_DISTANCE",
+      "zh": "邻近距离关系",
+      "en": "neighbor-distance relation",
+      "description": "记录地理对象之间的邻近关系、距离和距离权重。",
+      "required_fields": [
+        "source_id",
+        "target_id",
+        "distance_m",
+        "neighbor_order",
+        "weight"
+      ],
+      "typical_use": "spatial dependence, neighborhood analysis"
+    },
+    {
+      "relation_id": "REL_TEXT_EVIDENCE",
+      "zh": "文本—证据关系",
+      "en": "text-evidence relation",
+      "description": "记录自然语言语料单元与数据证据之间的对应关系。",
+      "required_fields": [
+        "corpus_id",
+        "evidence_id",
+        "source_table",
+        "source_id",
+        "variable",
+        "statistic"
+      ],
+      "typical_use": "RAG, data-grounded QA, automatic writing"
+    }
+  ]
+}

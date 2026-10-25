@@ -1,0 +1,294 @@
+{
+  "stages": [
+    {
+      "stage": "real_A_base",
+      "total": 500,
+      "primary": 500,
+      "derived": 0,
+      "evidence": 500,
+      "primary_nan": 0,
+      "physical_unit_present": 200,
+      "physical_unit_expected": 500,
+      "nonyear_suffix": 0,
+      "joined_statistic": 0,
+      "cryosphere": 0,
+      "no_coordinates": 0,
+      "crossvar_empty_evidence": 0,
+      "validator": {
+        "total": 0,
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {}
+    },
+    {
+      "stage": "real_A_reuse",
+      "total": 500,
+      "primary": 500,
+      "derived": 0,
+      "evidence": 500,
+      "primary_nan": 0,
+      "physical_unit_present": 200,
+      "physical_unit_expected": 500,
+      "nonyear_suffix": 0,
+      "joined_statistic": 0,
+      "cryosphere": 0,
+      "no_coordinates": 0,
+      "crossvar_empty_evidence": 0,
+      "validator": {
+        "total": 0,
+        "errors": 0,
+        "warnings": 0,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {}
+    },
+    {
+      "stage": "real_B_base",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 60,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 0,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    },
+    {
+      "stage": "real_B_reuse",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 0,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 0,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    },
+    {
+      "stage": "real_C_csv_base",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 50,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 3000,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    },
+    {
+      "stage": "real_C_csv_reuse",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 0,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 3000,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    },
+    {
+      "stage": "real_C_parquet_base",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 50,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 3000,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    },
+    {
+      "stage": "real_C_parquet_reuse",
+      "total": 4181,
+      "primary": 3000,
+      "derived": 1181,
+      "evidence": 3000,
+      "primary_nan": 0,
+      "physical_unit_present": 0,
+      "physical_unit_expected": 2500,
+      "nonyear_suffix": 3000,
+      "joined_statistic": 3000,
+      "cryosphere": 2400,
+      "no_coordinates": 3000,
+      "crossvar_empty_evidence": 686,
+      "validator": {
+        "total": 686,
+        "errors": 0,
+        "warnings": 686,
+        "info": 0,
+        "passed": true
+      },
+      "rules": {
+        "evidence_chain_empty": 686
+      }
+    }
+  ],
+  "determinism": {
+    "corpus_equal": true,
+    "evidence_equal": true
+  },
+  "template_check": {
+    "changed_fields": {
+      "text": 3000
+    },
+    "evidence_byte_equal": true,
+    "derived_texts_changed": 0
+  },
+  "controlled": {
+    "n": 432,
+    "paper_tolerance_pass": 359,
+    "original_csv_pass": 357,
+    "group_all_pass": 54,
+    "by_variant": [
+      {
+        "variant": "all_zero_no_nodata",
+        "passed": 39,
+        "n": 48
+      },
+      {
+        "variant": "float32_precision",
+        "passed": 46,
+        "n": 48
+      },
+      {
+        "variant": "nan_declared_nodata",
+        "passed": 48,
+        "n": 48
+      },
+      {
+        "variant": "nan_no_nodata",
+        "passed": 27,
+        "n": 48
+      },
+      {
+        "variant": "positive_no_nodata",
+        "passed": 27,
+        "n": 48
+      },
+      {
+        "variant": "sentinel_declared_nodata",
+        "passed": 48,
+        "n": 48
+      },
+      {
+        "variant": "sentinel_explicit_override",
+        "passed": 48,
+        "n": 48
+      },
+      {
+        "variant": "signed_nan_sentinel",
+        "passed": 48,
+        "n": 48
+      },
+      {
+        "variant": "signed_zero_no_nodata",
+        "passed": 28,
+        "n": 48
+      }
+    ]
+  },
+  "rebuilt": [
+    {
+      "name": "r1",
+      "units": 4181,
+      "evidence": 3000,
+      "corpus_sha256": "84d606cb2dab10d71598de086e79274a104c1e7f998ec8e2faaf12ba8cbbb06c",
+      "evidence_sha256": "062e95ed736bd57b2c6195e9a91f11b2204891934983ffcf7049c4bb2979e0f1"
+    },
+    {
+      "name": "r2",
+      "units": 4181,
+      "evidence": 3000,
+      "corpus_sha256": "84d606cb2dab10d71598de086e79274a104c1e7f998ec8e2faaf12ba8cbbb06c",
+      "evidence_sha256": "062e95ed736bd57b2c6195e9a91f11b2204891934983ffcf7049c4bb2979e0f1"
+    },
+    {
+      "name": "r3",
+      "units": 4181,
+      "evidence": 3000,
+      "corpus_sha256": "84d606cb2dab10d71598de086e79274a104c1e7f998ec8e2faaf12ba8cbbb06c",
+      "evidence_sha256": "062e95ed736bd57b2c6195e9a91f11b2204891934983ffcf7049c4bb2979e0f1"
+    },
+    {
+      "name": "custom",
+      "units": 4181,
+      "evidence": 3000,
+      "corpus_sha256": "2dbc2d99dc107a92492f6ff44068ad38b3e8b624f48f68cc2f00458f25af47e3",
+      "evidence_sha256": "062e95ed736bd57b2c6195e9a91f11b2204891934983ffcf7049c4bb2979e0f1"
+    }
+  ]
+}

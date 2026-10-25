@@ -1,0 +1,125 @@
+{
+  "data_kind": "synthetic_only",
+  "source_run": "F:\\project\\文本环境建模文章\\experiments\\2026-10-16\\results\\controlled_20261016T100106326636Z",
+  "operation": "postprocess_only_no_tested_software_rerun",
+  "postprocess_script_sha256": "136a0ae266a2ca757899a38c51ac4061090579e72871c7073118e1e9b3aef053",
+  "raw_comparison_csv_sha256": "efbc07314944e1d06481a9eb9fd6053df00f8804736e244319b54fc904e1e054",
+  "primary_predeclared_chapter3_rule": "abs(observed-unrounded_float64_reference) <= 5e-5 + 1e-6*abs(reference); count exact; empty statistics null",
+  "strict_diagnostic_rule": "original reference rounded to 4dp, abs_tol=5e-5 and rel_tol=1e-12; retained separately",
+  "main_six_statistics": {
+    "passed": 359,
+    "denominator": 432,
+    "failed": 73,
+    "cases_all_pass": 54,
+    "case_denominator": 72,
+    "failed_by_variant": {
+      "all_zero_no_nodata": 9,
+      "float32_precision": 2,
+      "nan_no_nodata": 21,
+      "positive_no_nodata": 21,
+      "signed_zero_no_nodata": 20
+    },
+    "failed_by_statistic": {
+      "count": 16,
+      "max": 5,
+      "mean": 13,
+      "median": 13,
+      "min": 11,
+      "std": 15
+    }
+  },
+  "main_six_finite_reference": {
+    "passed": 221,
+    "denominator": 270,
+    "failed": 49,
+    "cases_all_pass": 31,
+    "case_denominator": 45,
+    "failed_by_variant": {
+      "all_zero_no_nodata": 3,
+      "float32_precision": 2,
+      "nan_no_nodata": 15,
+      "positive_no_nodata": 15,
+      "signed_zero_no_nodata": 14
+    },
+    "failed_by_statistic": {
+      "count": 12,
+      "max": 1,
+      "mean": 9,
+      "median": 9,
+      "min": 7,
+      "std": 11
+    }
+  },
+  "main_six_empty_reference": {
+    "passed": 138,
+    "denominator": 162,
+    "failed": 24,
+    "cases_all_pass": 23,
+    "case_denominator": 27,
+    "failed_by_variant": {
+      "all_zero_no_nodata": 6,
+      "nan_no_nodata": 6,
+      "positive_no_nodata": 6,
+      "signed_zero_no_nodata": 6
+    },
+    "failed_by_statistic": {
+      "count": 4,
+      "max": 4,
+      "mean": 4,
+      "median": 4,
+      "min": 4,
+      "std": 4
+    }
+  },
+  "controlled_extension_sum": {
+    "passed": 68,
+    "denominator": 72,
+    "failed": 4,
+    "cases_all_pass": 68,
+    "case_denominator": 72,
+    "failed_by_variant": {
+      "all_zero_no_nodata": 1,
+      "nan_no_nodata": 1,
+      "positive_no_nodata": 1,
+      "signed_zero_no_nodata": 1
+    },
+    "failed_by_statistic": {
+      "sum": 4
+    }
+  },
+  "all_seven_statistics": {
+    "passed": 427,
+    "denominator": 504,
+    "failed": 77,
+    "cases_all_pass": 54,
+    "case_denominator": 72,
+    "failed_by_variant": {
+      "all_zero_no_nodata": 10,
+      "float32_precision": 2,
+      "nan_no_nodata": 22,
+      "positive_no_nodata": 22,
+      "signed_zero_no_nodata": 21
+    },
+    "failed_by_statistic": {
+      "count": 16,
+      "max": 5,
+      "mean": 13,
+      "median": 13,
+      "min": 11,
+      "std": 15,
+      "sum": 4
+    }
+  },
+  "strict_original_main_six": {
+    "passed": 357,
+    "denominator": 432
+  },
+  "comparison_csv": "F:\\project\\文本环境建模文章\\experiments\\2026-10-16\\results\\controlled_20261016T100106326636Z\\controlled_protocol_comparison.csv",
+  "build_audit_scope_notes": [
+    "Numeric semantic checks cover result units, not complete semantic review of derived interpretation/comparison units.",
+    "Coordinate correctness is only tested where lon/lat are provided: stat_csv and stat_parquet, eight result units. Other coordinate check booleans were vacuous and are not evidence of coordinate accuracy.",
+    "Zero-pair build failure must retain input-side denominator two; zero output is not a successful zero-denominator numeric evaluation.",
+    "No manual validation or real-data claim is made."
+  ],
+  "reproduce_command": "& \"D:\\location\\Anaconda\\envs\\suqing\\python.exe\" \"F:\\project\\文本环境建模文章\\experiments\\2026-10-16\\scripts\\run_controlled.py\" --protocol-only \"F:\\project\\文本环境建模文章\\experiments\\2026-10-16\\results\\controlled_20261016T100106326636Z\""
+}

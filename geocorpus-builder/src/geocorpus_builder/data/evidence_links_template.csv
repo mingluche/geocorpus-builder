@@ -1,0 +1,5 @@
+evidence_id,corpus_id,evidence_type,source_table,source_id,variable,statistic,value,unit,time_range,spatial_scale,notes
+EV_SCHEMA_001,GC_METHOD_001,schema,geocorpus_schema.json,corpus_units,crosswalk,definition,,,not_applicable,schema,Schema-level evidence for object-grid-text structure.
+EV_SCHEMA_002,GC_INTERPRET_001,schema,geocorpus_schema.json,glacier_heterogeneity,cv,definition,,,any,within_object,Schema-level evidence for heterogeneity statistics.
+EV_SCHEMA_003,QA_003,schema,relation_dictionary.json,REL_NEIGHBOR_DISTANCE,distance_m,definition,,m,static,object_pair,Schema-level evidence for neighbor-distance relation.
+EV_TEMPLATE_001,GC_RESULT_TEMPLATE_001,statistic,glacier_change_stats.parquet,GLACIER_PLACEHOLDER,glacier_thickness_change,mean_change,PLACEHOLDER,m,2017-2024,object,Replace with real calculated value before using as evidence.

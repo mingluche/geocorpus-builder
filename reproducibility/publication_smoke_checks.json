@@ -1,0 +1,8 @@
+{
+  "runtime": "3.10.16",
+  "distribution": "geocorpus_builder-0.1.0-py3-none-any.whl",
+  "tests_run": 2,
+  "exit_code": 0,
+  "scope": "synthetic basic records, numeric evidence links, and refusal to overwrite an existing output",
+  "not_a_repetition_of_historical_paper_experiments": true
+}

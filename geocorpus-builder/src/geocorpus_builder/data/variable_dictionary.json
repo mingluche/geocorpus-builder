@@ -1,0 +1,93 @@
+{
+  "version": "0.1.0",
+  "variables": [
+    {
+      "variable_id": "glacier_id",
+      "zh": "冰川编号",
+      "en": "glacier ID",
+      "domain": "cryosphere",
+      "description": "用于唯一标识单个冰川对象的编号。",
+      "unit": null,
+      "spatial_support": "object",
+      "temporal_support": "static_or_slow_changing",
+      "aggregation_rule": "not_aggregated"
+    },
+    {
+      "variable_id": "grid_id",
+      "zh": "固定网格编号",
+      "en": "fixed grid ID",
+      "domain": "geospatial_data",
+      "description": "ChinaGeoLink 固定网格系统中的唯一网格编号。",
+      "unit": null,
+      "spatial_support": "grid",
+      "temporal_support": "static",
+      "aggregation_rule": "not_aggregated"
+    },
+    {
+      "variable_id": "glacier_thickness",
+      "zh": "冰川厚度",
+      "en": "glacier thickness",
+      "domain": "cryosphere",
+      "description": "冰川表面至冰床之间的厚度。",
+      "unit": "m",
+      "spatial_support": "grid",
+      "temporal_support": "yearly",
+      "aggregation_rule": "area_weighted_mean"
+    },
+    {
+      "variable_id": "glacier_thickness_change",
+      "zh": "冰川厚度变化",
+      "en": "glacier thickness change",
+      "domain": "cryosphere",
+      "description": "两个年份之间冰川厚度的差值，通常为 end_year - start_year。",
+      "unit": "m",
+      "spatial_support": "grid_or_object",
+      "temporal_support": "period",
+      "aggregation_rule": "area_weighted_mean"
+    },
+    {
+      "variable_id": "glacier_thinning_rate",
+      "zh": "冰川变薄速率",
+      "en": "glacier thinning rate",
+      "domain": "cryosphere",
+      "description": "冰川厚度变化除以时间间隔后的年变化率。",
+      "unit": "m yr-1",
+      "spatial_support": "grid_or_object",
+      "temporal_support": "period",
+      "aggregation_rule": "area_weighted_mean"
+    },
+    {
+      "variable_id": "cv",
+      "zh": "变异系数",
+      "en": "coefficient of variation",
+      "domain": "statistics",
+      "description": "标准差与均值的比值，用于描述空间异质性。",
+      "unit": null,
+      "spatial_support": "object_or_region",
+      "temporal_support": "any",
+      "aggregation_rule": "derived"
+    },
+    {
+      "variable_id": "distance_m",
+      "zh": "距离",
+      "en": "distance",
+      "domain": "geospatial_data",
+      "description": "两个地理对象之间的欧氏距离、边界距离或网络距离。",
+      "unit": "m",
+      "spatial_support": "object_pair",
+      "temporal_support": "static",
+      "aggregation_rule": "not_aggregated"
+    },
+    {
+      "variable_id": "area_fraction",
+      "zh": "面积权重",
+      "en": "area fraction",
+      "domain": "geospatial_data",
+      "description": "一个空间对象与另一个空间单元重叠面积所占的比例。",
+      "unit": null,
+      "spatial_support": "object_grid_pair",
+      "temporal_support": "static_or_yearly",
+      "aggregation_rule": "weight"
+    }
+  ]
+}

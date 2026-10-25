@@ -1,0 +1,9 @@
+stage,reference_eligible_unique_facts,emitted_primary_records,valid_emitted_numeric_primary_records,nonfinite_primary_records,physical_unit_present_numerator,physical_unit_expected_denominator,derived_record_count,derived_without_evidence_count
+real_A_base,500,500,500,0,200,500,0,0
+real_B_base,2950,3000,2940,60,0,2500,1181,686
+real_C_csv_base,2950,3000,2950,50,0,2500,1181,686
+real_C_parquet_base,2950,3000,2950,50,0,2500,1181,686
+real_A_reuse,500,500,500,0,200,500,0,0
+real_B_reuse,3000,3000,3000,0,0,2500,1181,686
+real_C_csv_reuse,3000,3000,3000,0,0,2500,1181,686
+real_C_parquet_reuse,3000,3000,3000,0,0,2500,1181,686

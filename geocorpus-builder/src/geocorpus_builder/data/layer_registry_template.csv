@@ -1,0 +1,6 @@
+layer_id,layer_name,data_type,theme,variable,geometry_type,time_type,unit,path,description
+glacier_polygons,Glacier polygons,vector,cryosphere,glacier_boundary,polygon,static_or_slow_changing,,glacier/glacier_polygons.parquet,Standardized glacier polygon layer.
+glacier_thickness_2017,Glacier thickness 2017,raster,cryosphere,glacier_thickness,raster,yearly,m,raster/thickness_2017.tif,Annual glacier thickness raster.
+glacier_grid_crosswalk_30m,Glacier-grid crosswalk 30m,table,geospatial_relation,area_weight,table,static,,link/glacier_grid_crosswalk_30m.parquet,Area-weighted relation between glacier polygons and fixed 30m grids.
+glacier_yearly_stats,Glacier yearly statistics,table,cryosphere,glacier_thickness_summary,table,yearly,m,statistics/glacier_yearly_stats.parquet,Glacier-level yearly thickness statistics.
+corpus_units,GeoCorpus units,table,corpus,text_claims,table,any,,corpus/corpus_units.parquet,Natural-language corpus units linked to geographical evidence.

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the versioned software archive when it becomes available; no archive DOI has yet been assigned."
+type: software
+title: "GeoCorpus Builder"
+version: "0.1.0"
+abstract: "A workflow for constructing environmental quantitative text with linked evidence from geographic attributes and spatial statistics."
+authors:
+  - family-names: Che
+    given-names: Minglu
+  - family-names: Hu
+    given-names: Yuanming
+  - family-names: Zhong
+    given-names: Jiarong
+  - family-names: He
+    given-names: Jie
+  - family-names: Guo
+    given-names: Yanlong
+    email: guoyl@itpcas.ac.cn
+  - family-names: Nian
+    given-names: Yanyun
+keywords:
+  - environmental data
+  - quantitative text
+  - geospatial statistics
+  - data provenance
+  - corpus construction

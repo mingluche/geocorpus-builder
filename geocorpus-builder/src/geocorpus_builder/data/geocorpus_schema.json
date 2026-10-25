@@ -1,0 +1,79 @@
+{
+  "version": "0.1.0",
+  "name": "GeoCorpus Schema",
+  "description": "A schema for geographically grounded Earth-science corpus units.",
+  "core_tables": {
+    "corpus_units": {
+      "primary_key": "corpus_id",
+      "fields": {
+        "corpus_id": "Unique ID of corpus unit",
+        "text": "Natural-language statement",
+        "text_type": "definition / method / result / caption / qa_answer / interpretation",
+        "domain": "cryosphere / hydrology / meteorology / climatology / geomorphology / ecosystem / human_activity / hazard_risk",
+        "subdomain": "glacier / flood / precipitation / soil_water / etc.",
+        "geo_object_type": "glacier / grid / region / station / basin / event / raster_layer",
+        "geo_object_id": "Specific object ID, such as glacier_id, region_id, grid_id, station_id",
+        "spatial_scale": "object / grid / region / national / multi_scale",
+        "time_range": "Time period, e.g. 2017-2024",
+        "variable": "Main variable discussed",
+        "claim_type": "descriptive / comparative / causal / methodological / uncertainty",
+        "evidence_ids": "List of linked evidence IDs",
+        "confidence": "high / medium / low",
+        "source": "manual / script_generated / paper / model_output"
+      }
+    },
+    "evidence_links": {
+      "primary_key": "evidence_id",
+      "fields": {
+        "evidence_id": "Unique evidence ID",
+        "corpus_id": "Linked corpus unit",
+        "evidence_type": "statistic / raster / vector / crosswalk / method / figure / literature",
+        "source_table": "Table or file where evidence comes from",
+        "source_id": "Object ID or row ID in source table",
+        "variable": "Variable name",
+        "statistic": "mean / median / trend / p10 / p90 / cv / area / count",
+        "value": "Numeric or textual evidence value",
+        "unit": "Unit",
+        "time_range": "Time range",
+        "spatial_scale": "Scale",
+        "notes": "Additional notes"
+      }
+    },
+    "qa_pairs": {
+      "fields": {
+        "qa_id": "Unique QA ID",
+        "question": "Question text",
+        "answer": "Grounded answer",
+        "domain": "Domain classification",
+        "required_tables": "Tables required",
+        "evidence_ids": "Evidence IDs used",
+        "answer_rule": "How the answer should be generated"
+      }
+    },
+    "geo_concepts": {
+      "fields": {
+        "concept_id": "Unique concept ID",
+        "zh": "Chinese term",
+        "en": "English term",
+        "definition": "Short definition",
+        "domain": "Domain",
+        "data_type": "GeoObject / GeoField / GeoRegion / GeoEvent / GeoRelation / indicator",
+        "typical_unit": "Typical unit",
+        "related_variables": "Related variable IDs"
+      }
+    },
+    "variable_dictionary": {
+      "fields": {
+        "variable_id": "Unique variable ID",
+        "zh": "Chinese name",
+        "en": "English name",
+        "domain": "Domain",
+        "description": "Definition and meaning",
+        "unit": "Unit",
+        "spatial_support": "grid / object / region / point / event",
+        "temporal_support": "static / yearly / monthly / daily / event / period",
+        "aggregation_rule": "mean / sum / area_weighted_mean / majority / max / percentile"
+      }
+    }
+  }
+}

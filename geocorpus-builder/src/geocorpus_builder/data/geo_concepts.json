@@ -1,0 +1,94 @@
+{
+  "version": "0.1.0",
+  "concepts": [
+    {
+      "concept_id": "CPT_GEO_OBJECT",
+      "zh": "地理对象",
+      "en": "geographical object",
+      "definition": "具有明确位置、边界或身份标识的地理实体，例如冰川、湖泊、站点、城市或流域。",
+      "domain": "general_geography",
+      "data_type": "GeoObject",
+      "typical_unit": null,
+      "related_variables": []
+    },
+    {
+      "concept_id": "CPT_GEO_FIELD",
+      "zh": "地理场",
+      "en": "geographical field",
+      "definition": "在空间上连续或离散分布的地理变量，例如降水、温度、土壤湿度、冰川厚度或土地利用。",
+      "domain": "general_geography",
+      "data_type": "GeoField",
+      "typical_unit": null,
+      "related_variables": []
+    },
+    {
+      "concept_id": "CPT_CROSSWALK",
+      "zh": "空间对应关系表",
+      "en": "spatial crosswalk",
+      "definition": "显式记录不同地理对象、网格、区域或栅格像元之间空间对应关系的数据表，通常包含重叠面积、权重或归属关系。",
+      "domain": "geospatial_data",
+      "data_type": "GeoRelation",
+      "typical_unit": null,
+      "related_variables": [
+        "overlap_area_m2",
+        "area_fraction",
+        "weight"
+      ]
+    },
+    {
+      "concept_id": "CPT_SPATIAL_DEPENDENCE",
+      "zh": "空间依赖",
+      "en": "spatial dependence",
+      "definition": "地理现象之间因空间邻近、连通或相似环境而表现出的相关性，对应地理第一定律的基本思想。",
+      "domain": "general_geography",
+      "data_type": "indicator",
+      "typical_unit": null,
+      "related_variables": [
+        "distance_m",
+        "neighbor_weight",
+        "spatial_similarity"
+      ]
+    },
+    {
+      "concept_id": "CPT_SPATIAL_HETEROGENEITY",
+      "zh": "空间异质性",
+      "en": "spatial heterogeneity",
+      "definition": "地理现象在不同位置、区域或尺度上的差异性，对应地理第二定律中对空间分异的强调。",
+      "domain": "general_geography",
+      "data_type": "indicator",
+      "typical_unit": null,
+      "related_variables": [
+        "std",
+        "cv",
+        "p10",
+        "p90",
+        "local_variance"
+      ]
+    },
+    {
+      "concept_id": "CPT_GLACIER_THICKNESS",
+      "zh": "冰川厚度",
+      "en": "glacier thickness",
+      "definition": "冰川表面到冰床之间的垂直厚度，通常以米为单位。",
+      "domain": "cryosphere",
+      "data_type": "GeoField",
+      "typical_unit": "m",
+      "related_variables": [
+        "glacier_thickness"
+      ]
+    },
+    {
+      "concept_id": "CPT_GLACIER_THINNING",
+      "zh": "冰川变薄",
+      "en": "glacier thinning",
+      "definition": "某一时期内冰川厚度减少的过程或结果，可表示为总变化量或年变化率。",
+      "domain": "cryosphere",
+      "data_type": "derived_indicator",
+      "typical_unit": "m or m yr-1",
+      "related_variables": [
+        "glacier_thickness_change",
+        "glacier_thinning_rate"
+      ]
+    }
+  ]
+}

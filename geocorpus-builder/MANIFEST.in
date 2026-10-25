@@ -1,0 +1,4 @@
+include src/geocorpus_builder/data/*
+include src/geocorpus_builder/spatial/data/README.md
+recursive-include examples *.py
+recursive-include examples *.md

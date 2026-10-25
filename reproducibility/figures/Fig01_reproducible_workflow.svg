@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="748.8pt" height="316.8pt" viewBox="0 0 748.8 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-25T17:50:25.237074</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 748.8 316.8 
+L 748.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 14.544 109.008 
+L 169.776 109.008 
+L 169.776 52.56 
+L 14.544 52.56 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 205.056 109.008 
+L 353.232 109.008 
+L 353.232 52.56 
+L 205.056 52.56 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 171.778588 80.784 
+Q 187.415966 80.784 202.103014 80.784 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 198.503014 78.984 
+L 202.103014 80.784 
+L 198.503014 82.584 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 354.2404 82.512686 
+Q 377.927958 123.119928 401.136673 162.906296 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 400.877539 158.889725 
+L 401.136673 162.906296 
+L 397.767935 160.70366 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 14.544 193.68 
+L 169.776 193.68 
+L 169.776 137.232 
+L 14.544 137.232 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 205.056 193.68 
+L 353.232 193.68 
+L 353.232 137.232 
+L 205.056 137.232 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 171.778588 165.456 
+Q 187.415966 165.456 202.103014 165.456 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 198.503014 163.656 
+L 202.103014 165.456 
+L 198.503014 167.256 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 355.230712 165.456 
+Q 377.927943 165.456 399.674845 165.456 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 396.074845 163.656 
+L 399.674845 165.456 
+L 396.074845 167.256 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 14.544 278.352 
+L 169.776 278.352 
+L 169.776 221.904 
+L 14.544 221.904 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 205.056 278.352 
+L 353.232 278.352 
+L 353.232 221.904 
+L 205.056 221.904 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f5f5; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 171.778588 250.128 
+Q 187.415966 250.128 202.103014 250.128 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 198.503014 248.328 
+L 202.103014 250.128 
+L 198.503014 251.928 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 354.2404 248.399314 
+Q 377.927958 207.792072 401.136673 168.005704 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 397.767935 170.20834 
+L 401.136673 168.005704 
+L 400.877539 172.022275 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 402.624 228.96 
+L 536.688 228.96 
+L 536.688 101.952 
+L 402.624 101.952 
+z
+" clip-path="url(#pa507268e84)" style="fill: #e7efed; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 538.690588 165.456 
+Q 554.327966 165.456 569.015014 165.456 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 565.415014 163.656 
+L 569.015014 165.456 
+L 565.415014 167.256 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 571.968 207.792 
+L 734.256 207.792 
+L 734.256 123.12 
+L 571.968 123.12 
+z
+" clip-path="url(#pa507268e84)" style="fill: #edf0f4; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 402.624 73.728 
+L 734.256 73.728 
+L 734.256 24.336 
+L 402.624 24.336 
+z
+" clip-path="url(#pa507268e84)" style="fill: #f3f3f3; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 469.656 75.729727 
+Q 469.656 87.840563 469.656 99.00107 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 471.456 95.40107 
+L 469.656 99.00107 
+L 467.856 95.40107 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 653.112 75.726712 
+Q 653.112 98.423943 653.112 120.170845 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 654.912 116.570845 
+L 653.112 120.170845 
+L 651.312 116.570845 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 564.912 306.576 
+L 734.256 306.576 
+L 734.256 250.128 
+L 564.912 250.128 
+z
+" clip-path="url(#pa507268e84)" style="fill: #ffffff; stroke: #596368; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 653.112 209.78942 
+Q 653.112 228.956647 653.112 247.173545 
+" clip-path="url(#pa507268e84)" style="fill: none; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 654.912 243.573545 
+L 653.112 247.173545 
+L 651.312 243.573545 
+z
+" clip-path="url(#pa507268e84)" style="fill: #596368; stroke: #596368; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="92.16" y="83.186344" transform="rotate(-0 92.16 83.186344)">Vector attributes</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="279.144" y="83.186344" transform="rotate(-0 279.144 83.186344)">Attribute extraction</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="92.16" y="167.858344" transform="rotate(-0 92.16 167.858344)">Numeric rasters and zones</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="279.144" y="167.858344" transform="rotate(-0 279.144 167.858344)">Zonal statistics</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="92.16" y="252.530344" transform="rotate(-0 92.16 252.530344)">CSV or Parquet statistics</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="279.144" y="252.520969" transform="rotate(-0 279.144 252.520969)">Table parsing</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman'" transform="translate(431.093422 147.821773)">Record organization</text>
+    <text style="font-size: 9.5px; font-family: 'Times New Roman'" transform="translate(469.656 157.78757)"/>
+    <text style="font-size: 9.5px; font-family: 'Times New Roman'" transform="translate(432.464242 167.740898)">Object and variable</text>
+    <text style="font-size: 9.5px; font-family: 'Times New Roman'" transform="translate(434.830336 177.706695)">Statistic and value</text>
+    <text style="font-size: 9.5px; font-family: 'Times New Roman'" transform="translate(432.983773 187.65468)">Context and source</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(612.841688 157.386781)">Rules and templates</text>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(653.112 167.858344)"/>
+    <text style="font-size: 10px; font-family: 'Times New Roman'" transform="translate(606.040125 178.329906)">Quantitative statements</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'Times New Roman'; text-anchor: middle" x="568.44" y="51.427312" transform="rotate(-0 568.44 51.427312)">Project configuration and expression rules</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Times New Roman'; text-anchor: middle" x="649.584" y="280.514109" transform="rotate(-0 649.584 280.514109)">Corpus records + evidence records</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa507268e84">
+   <rect x="7.488" y="3.168" width="733.824" height="310.464"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,5 @@
+﻿cohort,group,paired_record_count,exact_match_numerator,text_equal_numerator,facts_exact_equal_numerator,numeric_facts_equivalent_numerator
+base,derived,1181,1181,1181,1181,1181
+base,primary,3000,3000,3000,3000,3000
+reuse,derived,1181,1181,1181,1181,1181
+reuse,primary,3000,3000,3000,3000,3000
